@@ -1,0 +1,3 @@
+C:\dev\BuildingEscape\BuildingEscape\Source\BuildingEscape\BuildingEscape.Build.cs
+C:\dev\BuildingEscape\BuildingEscape\Source\BuildingEscape.Target.cs
+C:\dev\BuildingEscape\BuildingEscape\Source\BuildingEscapeEditor.Target.cs
