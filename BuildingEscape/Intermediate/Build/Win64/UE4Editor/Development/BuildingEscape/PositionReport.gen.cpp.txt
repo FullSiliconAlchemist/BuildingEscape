@@ -1,0 +1,5 @@
+C:\dev\BuildingEscape\UnrealProject1\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\Definitions.BuildingEscape.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\dev\BuildingEscape\UnrealProject1\BuildingEscape\Source\BuildingEscape/PositionReport.h
+c:\dev\buildingescape\unrealproject1\buildingescape\intermediate\build\win64\ue4editor\inc\buildingescape\PositionReport.generated.h
