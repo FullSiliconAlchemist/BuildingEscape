@@ -1,7 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "PositionReport.h"
-
 #include "GameFramework/Actor.h"
 
 // Sets default values for this component's properties
@@ -22,9 +21,15 @@ void UPositionReport::BeginPlay()
 	
 	// Seems like everything returns an object
 	FString name = GetOwner()->GetName();
-	
+		
+	FVector ObjectPositionLoc = GetOwner()->GetActorLocation();
+	FTransform ObjectPositionVect = GetOwner()->GetTransform(); // Returns Struct containing Actor Rotation, Translation and Scale
+
+	FString ObjectPosition = ObjectPositionLoc.ToString();
+	FString ObjectPosition1 = ObjectPositionVect.ToString();
+
 	// UE_LOG is a macro
-	UE_LOG(LogTemp, Warning, TEXT("Position report reporting from %s"), *name);
+	UE_LOG(LogTemp, Warning, TEXT("%s is at %s also there's %s"), *name, *ObjectPosition, *ObjectPosition1);
 }
 
 
